@@ -19,9 +19,9 @@ to the datasheet.
 
 ## Hardware
 
-I'm using a NodeMCU clone (Board: Lolin Wemos D1 R2 & mini) and a 
-widespread MAX485 breakout module to connect to the RJ45 port of the 
-solar charge controller.
+I'm using a NodeMCU clone (Arduino IDE Board: Lolin Wemos D1 R2 & mini) 
+and a widespread MAX485 breakout module to connect to the RJ45 port of 
+the solar charge controller.
 
 Both modules are powered using the (in my case) 7.5 Volt supply-voltage
 that is available at the RJ45 port. If you're using another esp module 
@@ -88,6 +88,7 @@ I got loads of info for this from:
 For taking the data to grafana, you might want to take a look here: 
 
    https://github.com/glitterkitty/mqtt-mysql
+
 
 
 Have Phun!!!
