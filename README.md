@@ -3,7 +3,7 @@
 ## Purpose
 
 This code is for reading live-, statistical and status-data from
-an EpEver LandStar B ( LS1024B ) via a Modbus connection.
+an EpEver LandStar B (LS1024B) via a Modbus connection.
 
 The data is then published via mqtt to be fed to gafana and pimatic.
 
