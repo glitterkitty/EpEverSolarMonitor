@@ -1,21 +1,11 @@
 # EpEverSolarMonitor
 
-## Purpose
+## Descrition
 
 This code is for reading live-, statistical and status-data from
 an EpEver LandStar B (LS1024B) via a Modbus connection.
 
 The data is then published via mqtt to be fed to gafana and pimatic.
-
-## Description
-
-This code started as a small sketch to read the data via modbus and 
-then got additions for mqtt, deep-sleep, debug a.t.l.. It got quite big 
-an should get some restructuring...
-
-If you have another EpEver charge controller (like a Tracer), 
-you may need to adjust the register/data locations according 
-to the datasheet.
 
 ## Hardware
 
@@ -68,6 +58,14 @@ connection fails. Check voltage-level and -polarity before connecting!
 
 
 ## Note
+
+This code started as a small sketch to read the data via modbus and 
+then got additions for mqtt, deep-sleep, debug a.t.l.. It got quite big 
+an should get some restructuring...
+
+If you have another EpEver charge controller (like a Tracer), 
+you may need to adjust the register/data locations according 
+to the datasheet.
 
 I'm excessively using the union-struct trick to map buffer-data 
 to structs here. Most of the defines for the data-locations
