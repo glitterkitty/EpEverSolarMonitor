@@ -1,11 +1,13 @@
 # EpEverSolarMonitor
 
-## Descrition
+## Description
 
 This code is for reading live-, statistical and status-data from
 an EpEver LandStar B (LS1024B) via a Modbus connection.
 
 The data is then published via mqtt to be fed to gafana and pimatic.
+
+The code is compiled in the Arduino IDE (1.8.6) using the ESP-framework (2.4.2).
 
 ## Hardware
 
