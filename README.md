@@ -79,15 +79,15 @@ Some parts are not done yet, or not done properly, like the switching of the loa
 
 I got loads of info for this from:
 
-    [https://www.eevblog.com/forum/projects/nodemcu-esp8266-rs485-epever-solar-monitor-diy/](https://www.eevblog.com/forum/projects/nodemcu-esp8266-rs485-epever-solar-monitor-diy/)
-    [https://www.eevblog.com/forum/projects/nodemcu-esp8266-rs485-epever-solar-monitor-diy/](http://4-20ma.io/ModbusMaster)
+    https://www.eevblog.com/forum/projects/nodemcu-esp8266-rs485-epever-solar-monitor-diy/
+    http://4-20ma.io/ModbusMaster
 
 
 ## Furthermore
 
 For taking the data to grafana, you might want to take a look here: 
 
-    (https://github.com/glitterkitty/mqtt-mysql)
+    https://github.com/glitterkitty/mqtt-mysql
 
 
 Have Phun!!!
