@@ -71,7 +71,9 @@ connection fails. Check voltage-level and -polarity before connecting!
 
 I'm excessively using the union-struct trick to map buffer-data 
 to structs here. Most of the defines for the data-locations
-are for reference only and not actually used in the code
+are for reference only and not actually used in the code.
+
+Some parts are not done yet, or not done properly, like the switching of the load or the evaluation of the charging-equipment status. 
 
 ## Attribution
 
