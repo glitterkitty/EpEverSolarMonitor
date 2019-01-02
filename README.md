@@ -16,7 +16,7 @@ and a widespread MAX485 breakout module to connect to the RJ45 port of
 the solar charge controller.
 
 Both modules are powered using the (in my case) 7.5 Volt supply-voltage
-that is available at the RJ45 port. If you're using another esp module 
+that is available at the RJ45 port of the EpEver Charge Controller. If you're using another esp module 
 (e.g. Wemos D1 mini), make sure, the onboard voltage-regulator can 
 handle the 7.5 volts from the EpEver.
 
